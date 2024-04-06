@@ -1,0 +1,52 @@
+# Ignore all bin and obj folders
+**/bin/
+**/obj/
+
+# Ignore all files with the .user or .suo extension
+*.user
+*.suo
+
+# Ignore the packages folder if you are using NuGet
+**/packages/
+
+# Ignore the ReSharpers folder
+**/_ReSharper*/
+
+# Ignore the VS code coverage results
+**/*.coverage
+**/*.coveragexml
+
+# Ignore .vs folder for Visual Studio 2015 and later
+.vs/
+
+# Ignore all build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# .NET Core SDK-specific files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore the node_modules folder if you are using Node.js
+node_modules/
+
+# Ignore the logs folder
+**/logs/
+
+# Ignore all .DS_Store files (macOS folder metadata)
+.DS_Store
+
+# Ignore all .idea files (JetBrains Rider settings)
+.idea/
